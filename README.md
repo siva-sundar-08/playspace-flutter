@@ -32,8 +32,8 @@ A cross-platform Flutter app for booking sports grounds, gaming hubs, VR zones, 
 ## 📫 Let's Connect!
 
 - 💼 [Portfolio](https://sivx-folio.netlify.app)
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-- 🧑‍💻 LinkedIn: *(add if available)*
+- 📧 Email: [sivasundar5944@gmail.com](mailto:sivasundar5944@gmail.com)
+- 🧑‍💻 LinkedIn: *([add if available](https://www.linkedin.com/in/siva-sundar-g-b0636225a/))*
 
 ---
 
