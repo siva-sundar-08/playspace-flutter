@@ -19,7 +19,7 @@ A cross-platform Flutter app for booking sports grounds, gaming hubs, VR zones, 
 
 - **Languages:** Dart, Swift, Java, JavaScript, HTML, CSS  
 - **Frameworks/Libraries:** Flutter, React, Bootstrap  
-- **Tools:** Firebase, Git, Xcode, Android Studio, VS Code  
+- **Tools:** Firebase, Git, Xcode, VS Code  
 
 ---
 
