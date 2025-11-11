@@ -1,8 +1,10 @@
 # Hi there, I'm Siva Sundar 👋
-🎯 *App Developer (iOS & Flutter)* | *Frontend Web Developer*  
-💻 *Skilled in Swift, Dart, Java, JavaScript, HTML, CSS, Bootstrap, React*  
-🎓 *Student @ Sathyabama Institute of Science And Technology*  
+
+🎯 App Developer (iOS & Flutter)* | *Frontend Web Developer 
+💻 Skilled in Swift, Dart, Java, JavaScript, HTML, CSS, Bootstrap, React 
+🎓 Student @ Sathyabama Institute of Science And Technology  
 📍 Chennai, India
+
 ---
 ## 🚀 Projects
 ### 🔹 [Playspace](https://github.com/littlevibe-maker/playspace)  
