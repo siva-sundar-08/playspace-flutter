@@ -1,55 +1,113 @@
-# Hi there, I'm Siva Sundar 👋
+<div align="center">
 
-🎯 *App Developer (iOS & Flutter)* | *Frontend Web Developer*  
-💻 *Skilled in Swift, Dart, Java, JavaScript, HTML, CSS, Bootstrap, React*  
-🎓 *Student @ Sathyabama Institute of Science And Technology*  
-📍 *Chennai, India*
+# 👋 Hey, I'm Siva Sundar
 
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=App+Developer+%F0%9F%93%B1;Frontend+Web+Developer+%F0%9F%92%BB;Flutter+%26+iOS+Specialist+%F0%9F%9A%80" alt="Typing SVG" />
 
-## 🚀 Projects
+<br/>
 
-### 🔹 [Playspace](https://github.com/littlevibe-maker/playspace)  
-A cross-platform Flutter app for booking sports grounds, gaming hubs, VR zones, and more.  
-🔗 [Live Demo](https://sivx-folio.netlify.app/flu1#overview)
+### 🎓 Student @ Sathyabama Institute of Science And Technology
+### 📍 Chennai, India
+
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+<div align="center">
 
-### Languages
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## 🛠️ Tech Arsenal
 
-### Frameworks & Libraries
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="48" height="48" alt="Dart" />
+<br>Dart
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" width="48" height="48" alt="Swift" />
+<br>Swift
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="48" height="48" alt="Flutter" />
+<br>Flutter
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" height="48" alt="React" />
+<br>React
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
+<br>JavaScript
+</td>
+</tr>
+<tr>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" height="48" alt="Java" />
+<br>Java
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" />
+<br>HTML5
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" />
+<br>CSS3
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="48" height="48" alt="Bootstrap" />
+<br>Bootstrap
+</td>
+<td align="center" width="96">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="48" height="48" alt="Firebase" />
+<br>Firebase
+</td>
+</tr>
+</table>
 
-### Tools & Platforms
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=xcode&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+</div>
 
 ---
+
+<div align="center">
+
+## 🚀 Featured Project
+
+### 🎮 [Playspace](https://github.com/littlevibe-maker/playspace)
+
+*A cross-platform Flutter app for booking sports grounds, gaming hubs, VR zones, and more.*
+
+[![View Demo](https://img.shields.io/badge/🔗_Live_Demo-6C63FF?style=for-the-badge)](https://sivx-folio.netlify.app/flu1#overview)
+[![View Code](https://img.shields.io/badge/📂_Source_Code-181717?style=for-the-badge&logo=github)](https://github.com/littlevibe-maker/playspace)
+
+</div>
+
+---
+
+<div align="center">
 
 ## 📊 GitHub Stats
 
-![Siva's GitHub stats](https://github-readme-stats.vercel.app/api?username=littlevibe-maker&show_icons=true&theme=radical)
+<img src="https://github-readme-stats.vercel.app/api?username=littlevibe-maker&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF" alt="GitHub Stats" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=littlevibe-maker&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="GitHub Streak" />
+
+</div>
 
 ---
 
-## 📫 Let's Connect!
+<div align="center">
 
-- 💼 [Portfolio](https://sivx-folio.netlify.app)
-- 📧 Email: [sivasundar5944@gmail.com](mailto:sivasundar5944@gmail.com)
-- 🧑‍💻 LinkedIn: *([Siva Sundar/in](https://www.linkedin.com/in/siva-sundar-g-b0636225a/))*
+## 🤝 Let's Connect!
 
----
+[![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sivx-folio.netlify.app)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sivasundar5944@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siva-sundar-g-b0636225a/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/littlevibe-maker)
 
- “Code is like humor. When you have to explain it, it’s bad.” – Cory House
+<br/>
+
+*"Code is like humor. When you have to explain it, it's bad." – Cory House*
+
+<img src="https://komarev.com/ghpvc/?username=littlevibe-maker&color=6C63FF&style=for-the-badge" alt="Profile Views" />
+
+</div>
