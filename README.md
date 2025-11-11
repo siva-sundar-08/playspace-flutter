@@ -2,7 +2,7 @@
 
 # 👋 Hey, I'm Siva Sundar
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=App+Developer+%F0%9F%93%B1;Frontend+Web+Developer+%F0%9F%92%BB;Flutter+%26+iOS+Specialist+%F0%9F%9A%80" alt="Typing SVG" />
+I'm into<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=App+Developer+%F0%9F%93%B1;Frontend+Web+Developer+%F0%9F%92%BB;Flutter+%26+iOS+Specialist+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
