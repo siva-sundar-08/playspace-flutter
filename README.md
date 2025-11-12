@@ -29,6 +29,10 @@ A cross-platform Flutter app for booking sports grounds, gaming hubs, VR zones, 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=xcode&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,,nodejs,figma&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,discord,firebase,flutter&perline=3)](https://skillicons.dev)
 ---
 ## 📊 GitHub Stats
 ![Siva's GitHub stats](https://github-readme-stats.vercel.app/api?username=littlevibe-maker&show_icons=true&theme=radical)
