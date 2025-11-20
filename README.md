@@ -154,14 +154,6 @@ A modern, responsive portfolio website showcasing my projects, skills, and profe
 
 ---
 
-## 🏆 Achievements & Milestones
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=littlevibe-maker&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)
-
-</div>
-
 ---
 
 ## 💼 Professional Interests
@@ -231,13 +223,7 @@ I'm always excited to work on interesting projects and connect with fellow devel
 
 > *"Code is like humor. When you have to explain it, it's bad."*  
 > **– Cory House**
-
----
-
-### 📈 Profile Views
-
-![Visitor Count](https://profile-counter.glitch.me/littlevibe-maker/count.svg)
-
+> 
 ---
 
 ⭐️ From [littlevibe-maker](https://github.com/littlevibe-maker) | Built with ❤️ and lots of ☕
