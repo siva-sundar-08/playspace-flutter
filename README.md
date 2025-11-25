@@ -170,20 +170,132 @@ Secure payment processing with multiple options including cards, digital wallets
 
 ```
 playspace/
-├── lib/
-│   ├── models/          # Data models
-│   ├── screens/         # UI screens
-│   ├── widgets/         # Reusable widgets
-│   ├── services/        # Firebase & API services
-│   ├── providers/       # State management
-│   ├── utils/           # Helper functions & constants
-│   └── main.dart        # App entry point
+├── analysis_options.yaml
+├── pubspec.yaml
+├── README.md
+├── FILE_STRUCTURE.md
+│
 ├── assets/
-│   ├── images/          # Image assets
-│   └── icons/           # Icon assets
-├── android/             # Android-specific files
-├── ios/                 # iOS-specific files
-└── pubspec.yaml         # Dependencies
+│   └── (images, fonts, and other resources)
+│
+├── lib/
+│   ├── main.dart
+│   └── screens/
+│       ├── auth/
+│       │   ├── bookings_screen.dart
+│       │   ├── explore_screen.dart
+│       │   ├── forgot_password_screen.dart
+│       │   ├── home_screen.dart
+│       │   ├── login_screen.dart
+│       │   ├── notification_screen.dart
+│       │   ├── profile_screen.dart
+│       │   ├── settings_screen.dart
+│       │   └── signup_screen.dart
+│       └── venues/
+│           └── venue_booking_screen.dart
+│
+├── test/
+│   └── widget_test.dart
+│
+├── android/
+│   ├── build.gradle.kts
+│   ├── gradle.properties
+│   ├── settings.gradle.kts
+│   ├── gradle/
+│   │   └── wrapper/
+│   │       └── gradle-wrapper.properties
+│   └── app/
+│       ├── build.gradle.kts
+│       └── src/
+│           ├── debug/
+│           ├── main/
+│           └── profile/
+│
+├── ios/
+│   ├── Flutter/
+│   │   ├── AppFrameworkInfo.plist
+│   │   ├── Debug.xcconfig
+│   │   └── Release.xcconfig
+│   ├── Runner/
+│   │   ├── AppDelegate.swift
+│   │   ├── Info.plist
+│   │   ├── Runner-Bridging-Header.h
+│   │   ├── Assets.xcassets/
+│   │   │   ├── AppIcon.appiconset/
+│   │   │   └── LaunchImage.imageset/
+│   │   └── Base.lproj/
+│   │       ├── LaunchScreen.storyboard
+│   │       └── Main.storyboard
+│   ├── Runner.xcodeproj/
+│   │   ├── project.pbxproj
+│   │   ├── project.xcworkspace/
+│   │   │   └── contents.xcworkspacedata
+│   │   └── xcshareddata/
+│   ├── Runner.xcworkspace/
+│   │   └── contents.xcworkspacedata
+│   └── RunnerTests/
+│       └── RunnerTests.swift
+│
+├── macos/
+│   ├── Flutter/
+│   │   ├── Flutter-Debug.xcconfig
+│   │   ├── Flutter-Release.xcconfig
+│   │   └── GeneratedPluginRegistrant.swift
+│   ├── Runner/
+│   │   ├── AppDelegate.swift
+│   │   ├── DebugProfile.entitlements
+│   │   ├── Info.plist
+│   │   ├── MainFlutterWindow.swift
+│   │   ├── Release.entitlements
+│   │   ├── Assets.xcassets/
+│   │   ├── Base.lproj/
+│   │   └── Configs/
+│   ├── Runner.xcodeproj/
+│   │   ├── project.pbxproj
+│   │   └── project.xcworkspace/
+│   ├── Runner.xcworkspace/
+│   │   └── contents.xcworkspacedata
+│   └── RunnerTests/
+│       └── RunnerTests.swift
+│
+├── linux/
+│   ├── CMakeLists.txt
+│   ├── flutter/
+│   │   ├── CMakeLists.txt
+│   │   ├── generated_plugin_registrant.cc
+│   │   ├── generated_plugin_registrant.h
+│   │   └── generated_plugins.cmake
+│   └── runner/
+│       ├── CMakeLists.txt
+│       ├── main.cc
+│       ├── my_application.cc
+│       └── my_application.h
+│
+├── windows/
+│   ├── CMakeLists.txt
+│   ├── flutter/
+│   │   ├── CMakeLists.txt
+│   │   ├── generated_plugin_registrant.cc
+│   │   ├── generated_plugin_registrant.h
+│   │   └── generated_plugins.cmake
+│   └── runner/
+│       ├── CMakeLists.txt
+│       ├── flutter_window.cpp
+│       ├── flutter_window.h
+│       ├── main.cpp
+│       ├── resource.h
+│       ├── runner.exe.manifest
+│       ├── Runner.rc
+│       ├── utils.cpp
+│       ├── utils.h
+│       ├── win32_window.cpp
+│       ├── win32_window.h
+│       └── resources/
+│
+└── web/
+    ├── index.html
+    ├── manifest.json
+    └── icons/
 ```
 
 ---
