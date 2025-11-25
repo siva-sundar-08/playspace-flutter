@@ -1,247 +1,228 @@
 <div align="center">
 
-# 👋 Hey there, I'm Siva Sundar
+# 🏟️ Playspace - Game Zone Booking App
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=App+Developer+%7C+iOS+%26+Flutter;Frontend+Web+Developer;Building+Cross-Platform+Experiences;Always+Learning%2C+Always+Creating" alt="Typing SVG" />
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+**Seamless online booking platform for indoor games, turf, trampoline, VR experiences, and PC gaming hubs**
+
+[View Live Demo](https://sivx-folio.netlify.app/flu1#overview) • [Report Bug](https://github.com/siva-sundar-08/playspace/issues) • [Request Feature](https://github.com/siva-sundar-08/playspace/issues)
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [About The Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [How It Works](#how-it-works)
+- [App Screenshots](#app-screenshots)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## 🎯 About The Project
+
+**Playspace** is a comprehensive mobile solution designed to simplify the reservation process for various indoor gaming and sports facilities. Built with Flutter and powered by Firebase, this cross-platform application enables users to discover, book, and pay for recreational activities in real-time.
+
+The app features an intuitive interface with interactive facility maps, real-time availability tracking, secure payment integration, and personalized user profiles. Playspace streamlines the booking experience for both users and facility managers, reducing administrative overhead while maximizing venue utilization.
+
+### 🎮 Available Facilities
+
+- 🏈 **Indoor Turf** - Football, cricket, and team sports
+- 🎮 **Gaming Hubs** - High-end PC gaming stations
+- 🥽 **VR Experiences** - Immersive virtual reality sessions
+- 🤸 **Trampoline Parks** - Jump sessions and fitness classes
+
+---
+
+## ✨ Features
+
+### 🔍 Venue Discovery
+- Explore available venues categorized by type
+- Detailed information and photos for each facility
+- Interactive facility maps with location services
+
+### 📅 Real-Time Booking
+- Instant slot reservation with live availability updates
+- Real-time calendar with pricing information
+- Visual navigation of venues
+
+### 💳 Secure Payments
+- Integrated payment gateway with multiple options
+- Credit/debit cards and digital wallets
+- In-app credits system
+- Booking confirmation with QR code
+
+### 🔔 Smart Notifications
+- Automated booking reminders
+- Push notifications for updates
+- Special offers and promotions
+
+### 👤 User Management
+- Personalized user profiles
+- Booking history tracking
+- Options to modify or cancel bookings
+- Firebase authentication with multiple sign-in methods
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Flutter** - Cross-platform UI toolkit for building natively compiled applications
+- **Dart** - Client-optimized programming language for fast apps
+
+### State Management
+- **Provider** - State management solution for maintaining application state
+
+### Backend & Services
+- **Firebase Authentication** - Secure user authentication with multiple sign-in methods
+- **Firebase Firestore** - NoSQL database for real-time data synchronization
+- **Firebase Cloud Messaging** - Push notification service for reminders and updates
+- **Google Maps API** - Integration for facility mapping and location services
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Flutter SDK (3.0 or higher)
+- Dart SDK
+- Android Studio / VS Code with Flutter extensions
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/siva-sundar-08/playspace.git
+   cd playspace
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Set up Firebase**
+   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
+   - Add your Android/iOS app to the Firebase project
+   - Download and add the configuration files:
+     - `google-services.json` for Android (place in `android/app/`)
+     - `GoogleService-Info.plist` for iOS (place in `ios/Runner/`)
+
+4. **Configure Google Maps API**
+   - Get your API key from [Google Cloud Console](https://console.cloud.google.com/)
+   - Add the API key to:
+     - Android: `android/app/src/main/AndroidManifest.xml`
+     - iOS: `ios/Runner/AppDelegate.swift`
+
+5. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 📱 How It Works
+
+### 1. **Explore Venues**
+Users can browse through available venues categorized by activity type, view detailed information, photos, and facility amenities.
+
+### 2. **Check Availability**
+Real-time calendar displays available time slots with transparent pricing information for selected facilities and dates.
+
+### 3. **Book Your Slot**
+- Select preferred time slot
+- Add optional services (equipment rental, coaching, etc.)
+- Review and confirm booking details
+
+### 4. **Make Payment**
+Secure payment processing with multiple options including cards, digital wallets, and in-app credits.
+
+### 5. **Receive Confirmation**
+- Get booking confirmation with unique QR code
+- Receive automated reminders before the event
+- Access options to modify or cancel bookings anytime
+
+---
+
+## 📸 App Screenshots
+
+```
+[Add your app screenshots here]
+```
+
+---
+
+## 📁 Project Structure
+
+```
+playspace/
+├── lib/
+│   ├── models/          # Data models
+│   ├── screens/         # UI screens
+│   ├── widgets/         # Reusable widgets
+│   ├── services/        # Firebase & API services
+│   ├── providers/       # State management
+│   ├── utils/           # Helper functions & constants
+│   └── main.dart        # App entry point
+├── assets/
+│   ├── images/          # Image assets
+│   └── icons/           # Icon assets
+├── android/             # Android-specific files
+├── ios/                 # iOS-specific files
+└── pubspec.yaml         # Dependencies
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 📞 Contact
+
+**Siva Sundar**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sivx-folio.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siva-sundar-g-b0636225a/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sivasundar5944@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siva-sundar-08)
 
-🎓 Student @ **Sathyabama Institute of Science And Technology**  
-📍 Chennai, India | 💼 Open to Opportunities
-
-</div>
-
----
-
-## 🚀 About Me
-
-```swift
-let developer = Developer(
-    name: "Siva Sundar",
-    location: "Chennai, India 🇮🇳",
-    education: "Sathyabama Institute of Science And Technology",
-    skills: [
-        .mobile: ["iOS (Swift)", "Flutter (Dart)", "Cross-Platform"],
-        .web: ["React", "JavaScript", "HTML/CSS", "Bootstrap"],
-        .backend: ["Firebase", "REST APIs"],
-        .tools: ["Git", "Xcode", "VS Code", "Figma"]
-    ],
-    currentFocus: "Building intuitive mobile experiences",
-    funFact: "I debug with print statements and I'm not ashamed! 🐛"
-)
-```
-
-<details>
-<summary>📈 More About My Journey</summary>
-
-- 🔭 Currently working on **cross-platform mobile applications**
-- 🌱 Learning **SwiftUI**, **Advanced Flutter animations**, and **Cloud Architecture**
-- 👯 Looking to collaborate on **open-source mobile projects**
-- 💬 Ask me about **iOS development, Flutter, or mobile UX**
-- ⚡ Fun fact: I believe the best code is the code you don't have to write
-
-</details>
-
----
-
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
-### 💻 Languages
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### 📱 Mobile Development
-![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=for-the-badge&logo=apple&logoColor=white)
-
-### 🌐 Web Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-### 🛠️ Tools & Services
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=xcode&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-</div>
-
----
-
-## 🎯 Featured Projects
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🏟️ Playspace
-#### Cross-Platform Booking App
-
-A comprehensive Flutter application for discovering and booking sports grounds, gaming hubs, VR zones, and entertainment venues.
-
-**Tech Stack:**
-- Flutter & Dart
-- Firebase Backend
-- Google Maps API
-- Payment Integration
-
-[![View Project](https://img.shields.io/badge/Live_Demo-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sivx-folio.netlify.app/flu1#overview)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/littlevibe-maker/playspace)
-
-</td>
-<td width="50%">
-
-### 🌐 Portfolio Website
-#### Personal Brand Showcase
-
-A modern, responsive portfolio website showcasing my projects, skills, and professional journey.
-
-**Tech Stack:**
-- React
-- HTML/CSS/JavaScript
-- Bootstrap
-- Responsive Design
-
-[![View Live](https://img.shields.io/badge/Visit_Site-FF5722?style=for-the-badge&logo=safari&logoColor=white)](https://sivx-folio.netlify.app)
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=littlevibe-maker&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=littlevibe-maker&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=littlevibe-maker&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=littlevibe-maker&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF" width="100%"/>
-
-</div>
-
----
-
-## 🏆 Achievements & Milestones
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=littlevibe-maker&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)
-
-</div>
-
----
-
-## 💼 Professional Interests
-
-```javascript
-const professionalFocus = {
-    currentlyExploring: [
-        "Advanced iOS Architecture Patterns (MVVM, Clean Architecture)",
-        "Flutter State Management (Bloc, Riverpod)",
-        "Cloud-Native Mobile Development",
-        "Mobile DevOps & CI/CD"
-    ],
-    lookingForOpportunities: [
-        "Mobile Development Internships",
-        "Open Source Contributions",
-        "Freelance Projects",
-        "Tech Community Collaborations"
-    ],
-    passionateAbout: [
-        "Creating delightful user experiences",
-        "Writing clean, maintainable code",
-        "Mobile performance optimization",
-        "Mentoring aspiring developers"
-    ]
-};
-```
-
----
-
-## 📝 Latest Blog Posts & Articles
-
-<!-- BLOG-POST-LIST:START -->
-- 📱 Understanding SwiftUI Property Wrappers
-- 🚀 Flutter Performance Optimization Tips
-- 🎨 Designing Better Mobile UX
-- 💡 Clean Code Principles for Mobile Development
-<!-- BLOG-POST-LIST:END -->
-
----
-
-## 🤝 Let's Collaborate!
-
-<div align="center">
-
-I'm always excited to work on interesting projects and connect with fellow developers!
-
-**Open to:**
-- 🚀 Freelance mobile app projects
-- 🤝 Open source collaborations
-- 💼 Internship opportunities
-- 🎓 Knowledge sharing & mentorship
-
-**Reach out to me:**
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Site-FF5722?style=for-the-badge)](https://sivx-folio.netlify.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/siva-sundar-g-b0636225a/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail)](mailto:sivasundar5944@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/littlevibe-maker)
-
-</div>
+**Project Link:** [https://github.com/siva-sundar-08/playspace](https://github.com/siva-sundar-08/playspace)
 
 ---
 
 <div align="center">
 
-### 💭 Quote I Code By
+### ⭐ If you found this project helpful, please give it a star!
 
-> *"Code is like humor. When you have to explain it, it's bad."*  
-> **– Cory House**
-
----
-
-### 📈 Profile Views
-
-![Visitor Count](https://profile-counter.glitch.me/littlevibe-maker/count.svg)
-
----
-
-⭐️ From [littlevibe-maker](https://github.com/littlevibe-maker) | Built with ❤️ and lots of ☕
-
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+Made with ❤️ by [Siva Sundar](https://github.com/siva-sundar-08)
 
 </div>
